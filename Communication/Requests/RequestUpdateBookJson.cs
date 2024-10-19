@@ -1,10 +1,9 @@
 ﻿using GestaoDeLivraria.Enums;
 
-namespace GestaoDeLivraria.Models;
+namespace GestaoDeLivraria.Communication.Requests;
 
-public class Book
+public class RequestUpdateBookJson
 {
-    public int Id { get; set; }
     public string Title { get; set; } = string.Empty;
     public string Author { get; set; } = string.Empty;
     public Genders Gender { get; set; }
